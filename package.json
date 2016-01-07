@@ -1,0 +1,36 @@
+{
+  "name": "download-server",
+  "version": "1.0.0",
+  "description": "Simple download server with API-based access control",
+  "homepage": "https://github.com/steve-taylor/node-download-server",
+  "bugs": {
+    "url": "https://github.com/steve-taylor/node-download-server/issues"
+  },
+  "files": [
+    "index.js",
+    "main.js",
+    "lib/"
+  ],
+  "main": "index.js",
+  "author": "Steve Taylor",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-taylor/node-download-server.git"
+  },
+  "engines": {
+    "node": ">=0.12.0 <0.13"
+  },
+  "dependencies": {
+    "babel": "^5.8.21",
+    "body-parser": "^1.14.2",
+    "colors": "^1.1.2",
+    "command-line-args": "^2.1.4",
+    "express": "^4.13.3",
+    "node-cache": "^3.0.0",
+    "randomstring": "^1.1.3"
+  }
+}
