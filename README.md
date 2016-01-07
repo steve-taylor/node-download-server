@@ -1,6 +1,8 @@
 Node.js public/private download server
 ====
 
+    npm install --save download-server
+
 This is a small library and app to implement a file download server that is capable
 of serving public and private files.
 
